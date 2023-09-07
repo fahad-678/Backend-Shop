@@ -59,7 +59,7 @@ const userLoginCtrl = async (req, res, next) => {
 };
 
 //profile
-const userProfileCtrl = async (req, res) => {
+const userProfileCtrl = async (req, res) => { 
   try {
     const user = await User.findById(req.user).populate({
       path: "accounts",
