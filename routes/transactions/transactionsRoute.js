@@ -20,7 +20,7 @@ transactionsRoute.get("/", getTransactionsCtrl);
 transactionsRoute.get("/:id", getTransactionCtrl);
 
 //DELETE/api/v1/transactions/:id
-transactionsRoute.delete("/:id", getTransactionCtrl);
+transactionsRoute.delete("/:id", deleteTransactionCtrl);
 
 //PUT/api/v1/transactions/:id
 transactionsRoute.put("/:id", updateTransactionCtrl);

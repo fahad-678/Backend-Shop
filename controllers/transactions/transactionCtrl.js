@@ -92,7 +92,6 @@ const updateTransactionCtrl = async (req, res, next) => {
 module.exports = {
   createTransactionCtrl,
   getTransactionsCtrl,
-  getTransactionsCtrl,
   getTransactionCtrl,
   deleteTransactionCtrl,
   updateTransactionCtrl,
